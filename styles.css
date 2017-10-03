@@ -40,6 +40,25 @@
   /*font-family: 'Open Sans', sans-serif;*/
 }
 
+#introduction p {
+  margin: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#introduction h1 {
+  margin: 30px;
+  margin-bottom: 0px;
+  font-size: 60px;
+  color: #666666;
+}
+
+b {
+  font-size: 20px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #eff3f9;
