@@ -8,6 +8,7 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1r__FGa3mqi0QOs6qUxQEkxfK_OAojB4&callback=initMap">
     </script>
+    <script type="text/javascript" src="scripts.js"></script>
     <title>Salem Golf Club</title>
   </head>
   <body>
@@ -83,19 +84,12 @@
         <p>The mention of Marley’s funeral brings me back to the point I started from. There is no doubt that Marley was dead. This must be distinctly understood, or nothing wonderful can come of the story I am going to relate. If we were not perfectly convinced that Hamlet’s Father died before the play began, there would be nothing more remarkable in his taking a stroll at night, in an easterly wind, upon his own ramparts, than there would be in any other middle-aged gentleman rashly turning out after dark in a breezy spot—say Saint Paul’s Churchyard for instance—literally to astonish his son’s weak mind.</p>
       </div>
     </div>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
+    <div id="map">
+      <!-- This is the Google Maps Stuff -->
+    </div>
+    <hr>
+    <div class="page-bottom">
+      <p>Here is some text at the bottom of the page.</p>
+    </div>
   </body>
 </html>
