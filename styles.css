@@ -100,8 +100,15 @@
   line-height: 20px;
 }
 
-#introduction h1 {
-  margin: 30px;
+#introheader {
+  background-color: #A7BCAB
+   /*or #b3c5e2;*/
+  width: 100%;
+}
+
+#introheader h1 {
+  margin-top: 0px;
+  padding: 30px;
   margin-bottom: 0px;
   font-size: 60px;
   color: #666666;
@@ -122,8 +129,16 @@ body {
 }
 
 .page-bottom {
-  background-color: #ffeed6;
+  background-color: #A7BCAB;
   height: 100%;
   padding: 0px;
   margin: 0px;
+}
+
+#hours {
+  
+}
+
+#address {
+
 }
