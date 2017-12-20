@@ -132,13 +132,24 @@ body {
   background-color: #A7BCAB;
   height: 100%;
   padding: 0px;
+  padding-bottom: 10px;
   margin: 0px;
 }
 
-#hours {
-  
+.bottominfo {
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 30%;
+  line-height: 12px;
 }
 
-#address {
+.bottominfo h1 {
+  margin-bottom: 15px;
+}
 
+#addinfo {
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 15%;
+  line-height: 12px;
 }

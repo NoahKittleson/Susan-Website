@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href='styles.css' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" scr="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1r__FGa3mqi0QOs6qUxQEkxfK_OAojB4&callback=initMap">
@@ -47,7 +48,7 @@
       </div>
       <div id="welcome">
         <h1>Welcome!</h1>
-        <p>This text should be smaller</p>
+        <!-- <p>This text should be smaller</p> -->
       </div>
     </div>
     <div class="sub-banner">
@@ -86,35 +87,59 @@
         <p>The mention of Marley’s funeral brings me back to the point I started from. There is no doubt that Marley was dead. This must be distinctly understood, or nothing wonderful can come of the story I am going to relate. If we were not perfectly convinced that Hamlet’s Father died before the play began, there would be nothing more remarkable in his taking a stroll at night, in an easterly wind, upon his own ramparts, than there would be in any other middle-aged gentleman rashly turning out after dark in a breezy spot—say Saint Paul’s Churchyard for instance—literally to astonish his son’s weak mind.</p>
       </div>
     </div>
+    <div id="usertestimonials" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <!-- <img class="d-block img-fluid" src="..." alt="First slide"> -->
+          <p>Here is some text!</p>
+        </div>
+        <div class="carousel-item">
+          <!-- <img class="d-block img-fluid" src="..." alt="Second slide"> -->
+          <p>Here is some more text!</p>
+        </div>
+        <div class="carousel-item">
+          <!-- <img class="d-block img-fluid" src="..." alt="Third slide"> -->
+          <p>Here is the last text!</p>
+        </div>
+      </div>
+    </div>
     <div id="map">
       <!-- This is the Google Maps Stuff -->
     </div>
-    <hr>
     <div class="page-bottom">
-      <p>Here is some text at the bottom of the page.</p>
       <div class="row">
-        <div class="col-sm-6">
-          <div id="address">
+        <div class="col-sm-4">
+          <div class="bottominfo">
             <h1>Address</h1>
             <p>Salem Golf Club</p>
             <p>123 Fake Street</p>
-            <p>Salem, OR 97206</p>
+            <p>Salem, OR 97XXX</p>
             <p>(503)-123-1234</p>
             <p>contact@email.placeholder</p>
-            <br>
-            <p>Other Info?</p>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div id="hours">
+        <div class="col-sm-4">
+          <div class="bottominfo">
             <h1>Hours</h1>
             <p>Golf Shop:</p>
-            <p>Mon-Fri 0 AM to 13 PM</p>
+            <p>Mon-Fri 0 AM to X PM</p>
             <p>Range:</p>
-            <p>Mon-Fri 0 AM to 13 PM</p>
+            <p>Mon-Fri 0 AM to X PM</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="bottominfo" id="addinfo">
+            <h1>Facebook links?</h1>
+            <p>Twitter?</p>
+            <p>Instagram?</p>
+            <p>Whatever you want!</p>
           </div>
         </div>
       </div>
     </div>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   </body>
 </html>

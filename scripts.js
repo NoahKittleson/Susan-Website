@@ -1,3 +1,7 @@
+$(function(){
+  $('#usertestimonials').carousel();
+});
+
 function initMap() {
   var position = {lat: 44.913264, lng: -123.071510};
   var map = new google.maps.Map(document.getElementById('map'), {
