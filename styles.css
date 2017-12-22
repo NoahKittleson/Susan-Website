@@ -95,7 +95,7 @@
 #introduction p {
   margin: 30px;
   margin-left: 120px;
-  margin-right: 60px;
+  margin-right: 120px;
   font-size: 15px;
   line-height: 20px;
 }
@@ -120,7 +120,25 @@ b {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #eff3f9;
+  background-color: #EFF3F9;
+}
+
+.testimonial {
+  height: 200px;
+  background-color: #c9d5e8;
+  /* color: white; */
+  font-size: 50px;
+  padding-top: 70px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.name {
+  padding-left: 60%;
+  font-size: 25px;
+  line-height: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 #map {
